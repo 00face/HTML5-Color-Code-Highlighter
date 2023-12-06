@@ -64,7 +64,6 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
    or
 
    ```html5
-   <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
