@@ -64,8 +64,7 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
    ```
 ```
 
-```markdown
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](https://opensource.org/licenses/GPL-3.0) - see the [LICENSE.md](LICENSE.md) file for details.
-```
+
