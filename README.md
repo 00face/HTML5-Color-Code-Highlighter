@@ -22,9 +22,6 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
    <!-- Include the library script -->
     <script src="colorcodes.js" defer></script>
 
-
-Certainly! Here's a template you can use for your GitHub page:
-
 ```markdown
 # HTML5 Color Code Highlighter
 
