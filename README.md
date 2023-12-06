@@ -189,7 +189,7 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
 
 ## Demonstration
 
-![Demonstration]([https://i.imgur.com/your_image_file.gif](https://drive.google.com/file/d/1dtmyWRcwIJII9Hv44IvcIWxWLovbOhNy/view?usp=sharing))
+![Demonstration]([https://drive.google.com/uc?export=download&id=1dtmyWRcwIJII9Hv44IvcIWxWLovbOhNy](Demonstration))
 
 ## License
 
