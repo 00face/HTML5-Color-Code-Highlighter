@@ -60,7 +60,8 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
        processAndHighlightColors(document.body);
    });
    ```
-
+```
+```
    or
 
    ```html5
