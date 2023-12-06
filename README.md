@@ -15,7 +15,7 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
 
 ## Usage
 
-```markdown
+           ```markdown
 1. **Include the Library:**
    Add the HTML5 Color Code Highlighter library to your project.
 
@@ -39,13 +39,21 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
 
    ```html
    <html lang="en">
-<p>This is a paragraph with a CMYK color code: cmyk(100%, 50%, 50%, 50%);</p>
-<p>This is a paragraph with an HSVA color code: hsva(360, 100%, 100%, 70%);.
-<p>This is a paragraph with an HSL color code: hsl(240, 100%, 50%);</p>
-<p>This is a paragraph with an HWB color code: hwb(180 50% 0%);</p>
-<pre>
-      <code>This is a code window with a #C4C6BF; color code.</code>
-    </pre>
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Color Codes</title>
+     <script src="colorcodes.js" defer></script>
+   </head>
+   <body>
+     <p>This is a paragraph with a CMYK color code: cmyk(100%, 50%, 50%, 50%);</p>
+     <p>This is a paragraph with an HSVA color code: hsva(360, 100%, 100%, 70%);.</p>
+     <p>This is a paragraph with an HSL color code: hsl(240, 100%, 50%);</p>
+     <p>This is a paragraph with an HWB color code: hwb(180 50% 0%);</p>
+     <pre>
+       <code>This is a code window with a #C4C6BF; color code.</code>
+     </pre>
+   </body>
    </html>
    ```
 
@@ -62,7 +70,7 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
    for (var h1Element of h1Elements) {
        splitColorCodes(h1Element);
    ```
-
+              ```
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](https://opensource.org/licenses/GPL-3.0) - see the [LICENSE.md](LICENSE.md) file for details.
