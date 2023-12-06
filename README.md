@@ -1,6 +1,3 @@
-Your GitHub template looks good overall, but there is a small issue with the demonstration section. The image link syntax is incorrect. Also, I'll make a couple of formatting improvements for better readability. Here's the corrected version:
-
-```markdown
 # HTML5 Color Code Highlighter
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL3.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
@@ -18,6 +15,7 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
 
 ## Usage
 
+```markdown
 1. **Include the Library:**
    Add the HTML5 Color Code Highlighter library to your project.
 
