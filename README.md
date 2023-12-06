@@ -63,6 +63,7 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
        splitColorCodes(h1Element);
    ```
 ```
+```
 
 ## License
 
