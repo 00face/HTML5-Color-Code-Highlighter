@@ -1,6 +1,6 @@
 # HTML5 Color Code Highlighter
 
-[![License](https://img.shields.io/badge/License-GPL-3.0.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL3.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
 
 ## Overview
 
