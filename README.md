@@ -33,8 +33,6 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
 
 The HTML5 Color Code Highlighter is a JavaScript library crafted for developers to seamlessly manage colors within a webpage. This library simplifies the parsing and manipulation of color codes within the text, offering creative features like dynamic hover animations and underlining for color codes. It's specifically designed to enhance the visual appeal of HTML elements, providing a delightful experience for users.
 
-<img src="https://drive.google.com/file/d/1dtmyWRcwIJII9Hv44IvcIWxWLovbOhNy/view?usp=sharing" alt="Demonstration of the Color Code Highlighter library in action via an html file">
-
 ## Features
 
 - **Color Parsing:** Easily parse and manipulate color codes in the text content of your webpage.
@@ -46,14 +44,16 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
 
 1. **Include the Library:**
    Add the HTML5 Color Code Highlighter library to your project.
+```
 
    ```html
    <!-- Include the library script -->
    <script src="path/to/color-code-highlighter.js"></script>
    ```
-
+```markdown
 2. **Initialize the Library:**
    Use the library to process and enhance color codes on your webpage.
+```
 
    ```javascript
    // Example initialization
@@ -61,11 +61,10 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
        processAndHighlightColors(document.body);
    });
    ```
-```
-```
+
    or
 
-   ```html5
+   ```html
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -105,7 +104,7 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
     <input type="text" value="#00000; This is an input field with text."></input>
   </body>
    ```
-
+```markdown
 4. **Customize as Needed:**
    Tailor the library to your requirements, and integrate it seamlessly with your HTML elements.
 
@@ -115,8 +114,7 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
    for (var h1Element of h1Elements) {
        splitColorCodes(h1Element);
    }
-   ```
-
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](https://opensource.org/licenses/GPL-3.0) - see the [LICENSE.md](LICENSE.md) file for details.
+```
