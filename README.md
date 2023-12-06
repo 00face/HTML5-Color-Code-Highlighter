@@ -6,6 +6,8 @@
 
 The HTML5 Color Code Highlighter is a JavaScript library crafted for developers to seamlessly manage colors within a webpage. This library simplifies the parsing and manipulation of color codes within the text, offering creative features like dynamic hover animations and underlining for color codes. It's specifically designed to enhance the visual appeal of HTML elements, providing a delightful experience for users.
 
+
+
 ## Features
 
 - **Color Parsing:** Easily parse and manipulate color codes in the text content of your webpage.
@@ -30,6 +32,8 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
 ## Overview
 
 The HTML5 Color Code Highlighter is a JavaScript library crafted for developers to seamlessly manage colors within a webpage. This library simplifies the parsing and manipulation of color codes within the text, offering creative features like dynamic hover animations and underlining for color codes. It's specifically designed to enhance the visual appeal of HTML elements, providing a delightful experience for users.
+
+<img src="[your_gif_url_here](https://drive.google.com/file/d/1dtmyWRcwIJII9Hv44IvcIWxWLovbOhNy/view?usp=sharing)" alt="Demonstration of the Color Code Highlighter library in action via an html file">
 
 ## Features
 
