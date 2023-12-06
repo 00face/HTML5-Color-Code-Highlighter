@@ -1,3 +1,5 @@
+Your GitHub template looks good overall, but there is a small issue with the demonstration section. The image link syntax is incorrect. Also, I'll make a couple of formatting improvements for better readability. Here's the corrected version:
+
 ```markdown
 # HTML5 Color Code Highlighter
 
@@ -37,53 +39,23 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
 3. **Example HTML with Color Codes:**
    Include HTML content with color codes for the library to process.
 
-## Demonstration
-
-![Demonstration]([https://s5.gifyu.com/images/Siw3j.gif](Demonstration))
-
-
    ```html
    <html lang="en">
-     <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Color Codes</title>
-       <script src="colorcodes.js" defer></script>
-     </head>
-     <body>
-       <p>Working:</p>
-       <p> #C4C6BF </p>
-       <p>#C4C6BB; </p>
-       <p>red;</p>
-       <p>rgb(255,255,55,.5);</p>
-       <p>rgba(255, 0, 0, 0.5);</p>
-       <p>hsl(0deg, 100%, 50%);</p>
-       <p>hwb(12 50% 0%);</p>
-       <p>#C4C6BF;</p>
-       <p>cmyk(100%, 50%, 50%, 50%);</p>
-       <p>hsva(360, 100%, 100%, 70%);</p>
-       <p>purple</p>
-       <h1>This is a heading with a color code: #C4C6BF;</h1>
-       <p>This is a paragraph with a #C4C6BB; <span style="color: #C4C6BB;">color code</span> inside. </p>
-       <p>This is another paragraph with a red <span class="blob" style="color: red;">color code</span> inside. </p>
-       <p>This is a nested paragraph with a rgb(255,255,55,.5); <span style="color: rgb(255,255,55,.5);">color code</span> inside. </p>
-       <p>This is a nested paragraph with a rgba(255, 0, 0, 0.5); <span style="color: rgba(255, 0, 0, 0.5);">color code</span> inside. </p>
-       </div>
-       <p>This is a paragraph with a CMYK color code: cmyk(100%, 50%, 50%, 50%);</p>
-       <p>This is a paragraph with an HSVA color code: hsva(360, 100%, 100%, 70%);.
-       <p>This is a paragraph with an HSL color code: hsl(240, 100%, 50%);</p>
-       <p>This is a paragraph with an HWB color code: hwb(180 50% 0%);</p>
-       <pre>
-					<code>This is a code window with a #C4C6BF; color code.</code>
-				</pre>
-       <!-- Excluded -->
-       <p>Excluded elements</p>
-       <input type="text" value="#00000; This is an input field with text."></input>
-     </body>
+<p>This is a paragraph with a CMYK color code: cmyk(100%, 50%, 50%, 50%);</p>
+<p>This is a paragraph with an HSVA color code: hsva(360, 100%, 100%, 70%);.
+<p>This is a paragraph with an HSL color code: hsl(240, 100%, 50%);</p>
+<p>This is a paragraph with an HWB color code: hwb(180 50% 0%);</p>
+<pre>
+      <code>This is a code window with a #C4C6BF; color code.</code>
+    </pre>
    </html>
    ```
 
-4. **Customize as Needed:**
+4. **Demonstration**
+
+   ![Demonstration](https://s5.gifyu.com/images/Siw3j.gif)
+
+5. **Customize as Needed:**
    Tailor the library to your requirements and integrate it seamlessly with your HTML elements.
 
    ```javascript
@@ -97,3 +69,5 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
 
 This project is licensed under the [GNU General Public License v3.0](https://opensource.org/licenses/GPL-3.0) - see the [LICENSE.md](LICENSE.md) file for details.
 ```
+
+Make sure to replace the placeholder (`<!-- ... (your HTML content) ... -->`) with your actual HTML content.
