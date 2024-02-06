@@ -20,7 +20,7 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
 
    ```html
    <!-- Include the library script -->
-   <script src="path/to/color-code-highlighter.js" defer></script>
+   <script type="text/javascript" src="colorcodes.js" defer></script>
    ```
 
 2. **Initialize the Library:**
@@ -73,6 +73,4 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](https://opensource.org/licenses/GPL-3.0) - see the [LICENSE.md](LICENSE.md) file for details.
-
-
 
