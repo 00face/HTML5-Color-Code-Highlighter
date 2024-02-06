@@ -29,43 +29,60 @@ function isColor(strColor) {
 
 // Function to convert CMYK to Hex
 function convertCMYKToHex(c, m, y, k) {
+    // CMYK (Cyan, Magenta, Yellow, Key/Black) is a color model used primarily in printing.
+    // It represents the four ink colors used in printing processes, along with a key (black) component for depth and contrast.
+
+    // Calculate red component based on CMYK values
     const r = Math.round(255 * (1 - c / 100) * (1 - k / 100));
+    // Calculate green component based on CMYK values
     const g = Math.round(255 * (1 - m / 100) * (1 - k / 100));
+    // Calculate blue component based on CMYK values
     const b = Math.round(255 * (1 - y / 100) * (1 - k / 100));
-    return `#${r.toString(16).padStart(2, '0')}${g
-    .toString(16)
-    .padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+    // Generate hexadecimal representation of the color
+    return `#${r.toString(16).padStart(2, "0")}${g.toString(16).padStart(2, "0")}${b.toString(16).padStart(2, "0")}`;
 }
 
 // Function to convert HSVA to RGBA
 function convertHSVAtoRGBA(h, s, v, a = 1) {
+    // Calculate the chroma (color intensity) based on saturation and value
     const chroma = (v * s) / 100;
+    // Normalize hue to simplify calculations
     const hPrime = h / 60;
+    // Calculate the intermediate value 'x' based on chroma and hue
     const x = chroma * (1 - Math.abs((hPrime % 2) - 1));
+    // Calculate the minimum brightness 'm'
     const m = v / 100 - chroma;
     let r;
     let g;
-    let
-        b;
+    let b;
 
+    // Determine which sector of the color wheel the hue falls into and set RGB values accordingly
     if (hPrime >= 0 && hPrime < 1) {
+        // Red dominant sector
         [r, g, b] = [chroma, x, 0];
     } else if (hPrime >= 1 && hPrime < 2) {
+        // Yellow dominant sector
         [r, g, b] = [x, chroma, 0];
     } else if (hPrime >= 2 && hPrime < 3) {
+        // Green dominant sector
         [r, g, b] = [0, chroma, x];
     } else if (hPrime >= 3 && hPrime < 4) {
+        // Cyan dominant sector
         [r, g, b] = [0, x, chroma];
     } else if (hPrime >= 4 && hPrime < 5) {
+        // Blue dominant sector
         [r, g, b] = [x, 0, chroma];
     } else {
+        // Magenta dominant sector
         [r, g, b] = [chroma, 0, x];
     }
 
+    // Adjust and round RGB values to fit within the 8-bit range (0-255)
     r = Math.round((r + m) * 255);
     g = Math.round((g + m) * 255);
     b = Math.round((b + m) * 255);
 
+    // Return the RGBA color string
     return `rgba(${r}, ${g}, ${b}, ${a})`;
 }
 
