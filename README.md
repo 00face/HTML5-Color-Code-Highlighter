@@ -57,8 +57,9 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
    ```
 
 4. **Demonstration**
-   - Live demonstration [CodePen](https://codepen.io/thefacebiters/pen/yLxNmoL).
-   - Recorded demonstration ![Recorded Demonstration](https://s5.gifyu.com/images/Siw3j.gif)
+   - Live demonstration: [CodePen](https://codepen.io/thefacebiters/pen/yLxNmoL).
+   - Hosted: [GitHub] (https://raw.githack.com/00face/HTML5-Color-Code-Highlighter/main/colorcode.html).
+   - Recorded demonstration: [Recorded Demonstration](https://s5.gifyu.com/images/Siw3j.gif).
 
 5. **Customize as Needed:**
    Tailor the library to your requirements and integrate it seamlessly with your HTML elements.
