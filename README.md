@@ -9,9 +9,15 @@ The HTML5 Color Code Highlighter is a JavaScript library crafted for developers 
 ## Features
 
 - **Color Parsing:** Easily parse and manipulate color codes in the text content of your webpage.
-- **Hover Animations:** Implement captivating animations when users hover over colors, adding a dynamic touch to your design.
-- **Underline Effect:** Automatically underline color codes for better visibility and a polished look.
-- **Element Enhancement:** Tailor the library to work seamlessly with specific HTML elements, such as making vibrant headlines with `<h1>` tags.
+- **HTML Element Integration:** Seamlessly integrate color manipulation functionalities with specific HTML elements, enabling customized styling and dynamic visual effects tailored to different parts of your web application. Tailor the library to work seamlessly with specific HTML elements, such as making vibrant headlines with `<h1>` tags.
+- **CMYK Support:** Empower your web development team with the ability to parse and manipulate CMYK color codes, crucial for accurate color representation in print media and graphic design projects.  
+- **HSVA Support:** Enhance your web application's color capabilities by integrating HSVA (Hue, Saturation, Value, Alpha) color codes, enabling advanced color manipulation and effects for a more immersive user experience.
+- **Dynamic Hover Animations:** Elevate user engagement with captivating animations triggered by hovering over colors, providing an interactive and dynamic browsing experience that keeps users hooked.
+- **Underline Effect:** Enhance readability and aesthetics by automatically underlining color codes within text content, ensuring better visibility and a polished appearance for your web pages.
+- **Cross-Browser Compatibility:** Ensure broad accessibility and consistent user experiences across different web browsers by optimizing the JavaScript library for compatibility with a wide range of browser environments.
+- **Clipboard Integration:** Streamline user workflows with built-in clipboard integration, allowing users to easily copy color codes with a single click, enhancing productivity and convenience.
+- **Accessibility Features:** Prioritize inclusivity and accessibility by incorporating features that support colorblind users, such as customizable color contrast options and alternative text descriptions for color-coded elements.
+- **Responsive Design Support:** Facilitate seamless color adaptation across various screen sizes and devices with responsive design support, ensuring consistent visual appeal and functionality regardless of the user's device.
 
 ## Usage
 
